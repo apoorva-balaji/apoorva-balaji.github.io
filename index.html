@@ -1,11 +1,106 @@
-<!DOCTYPE HTML>
+f<!DOCTYPE HTML>
 <html lang="en">
-<head>
-<meta charset=utf-8>
-<title>Apoorva's Portfolio</title>
-</head>
-<body>
-<h1>Apoorva's Portfolio</h1>
-<p>Hello</p>
-</body>
+	<head>
+		<meta charset=utf-8>
+		<title>Apoorva Balaji</title>
+		<style>
+			header
+			{
+				background-color: #3AAFA9;
+				color: #DEF2F1;
+				font: sans-serif;
+			}
+
+			header.red-bg {
+				background-color:  red;
+			}
+
+			header#main {
+				background-color:  blue;
+			}
+
+			p {
+				font-family:  serif;
+			}
+
+			body 
+			{
+				background-color: #FEFFFF;
+				color: #2B7A78;
+				font: sans-serif;
+				line-height: 1;
+				margin: 0;
+			}
+			.accent
+			{
+				color:  #8C2E36;
+			}
+			ul.no-bullets 
+			{
+			  list-style-type: none; /* Remove bullets */
+			  padding: 0; /* Remove padding */
+			  margin: 0; /* Remove margins */
+			}
+
+			a:visited, a:link, a:hover
+			{
+			  background-color: transparent;
+			  text-decoration: none;
+			}
+
+			a:visited, a:link
+			{
+				color: #FEFFFF;
+				background-color:  red;
+			}
+
+			a:hover {
+			  color: #2B7A78;
+			}
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<a href="#about">About Me</a>
+			<a href="#skills">Skills</a>
+			<a href="#experience">Experience</a>
+			<a href="#contact">Contact</a>
+
+			<p class="intro__greeting">Hi, my name is</p>
+			<h1 class="intro__greeting" class="accent"><strong>Apoorva Balaji</strong></h1>
+			<p class="intro__body">aspiring front-end engineer</p>
+		</header>
+
+		<section class="section__about" id="about">
+			<a id="anchor-about"></a>
+			<h1>About Me</h1>
+			<p>I am currently a data engineer with a passion for front end development and design. I aspire towards a career that will allow me to channel my creativity in combination to create experiential products.</p>
+			<p>When I am not in front of a computer screen, you can find me perfecting my latte art, lifting at the gym, or giving my dog belly rubs.</p>
+		</section>
+
+		<section class="section__skills" id="skills">
+			<a id="anchor-skills"></a>
+			<h1>Skills</h1>
+			
+			<ul class="no-bullets">
+				<li>Python</li>
+				<li>SQL</li>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+			</ul>
+
+		</section>
+
+		<section class="section__experience" id="experience">
+			<a id="anchor-experience"></a>
+		</section>
+
+
+		<section class="section__contact" id="contact">
+			<a id="anchor-contact"></a>
+		</section>
+
+	</body>
 </html>
